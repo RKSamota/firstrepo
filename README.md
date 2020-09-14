@@ -9,9 +9,10 @@ This command turns a directory into an empty Git repository. This is the first s
 Example :-   
 make directory a git repository
 $ git init
+        $ git init
 
 
-# s2.  git add  :-
+# 2.  git add  :-
 Adds files in the to the staging area for Git. Before a file is available to commit to a repository, the file needs to be added to the Git index (staging area).
 
 Example :- 
@@ -21,19 +22,19 @@ $ git add index.html
 To stage an entire directory:
 $ git add mydirectory 
 
-//To add all files not staged:
+To add all files not staged:
           $ git add .
 
 
-#3.  git commit  : -
+# 3.  git commit  : -
 
 Record the changes made to the files to a local repository. For easy reference, each commit has a unique ID. 
 
 Example: -
-// Adding a commit with message
+Adding a commit with message
 $ git commit -m "Commit message in quotes"
 
-#4.  git status  : -
+# 4.  git status  : -
 
 git status will return the current working branch. If a file is in the staging area, but not committed, it shows with git status. Or, if there are no changes it’ll return nothing to commit, working directory clean.
 
@@ -46,7 +47,7 @@ Untracked files:
 
   	homepage/index.html
 
-# Message when files have been not been committed (git commit)
+Message when files have been not been committed (git commit)
 $ git status
 On branch SecretTesting
 Your branch is up-to-date with 'origin/SecretTesting'.
@@ -61,7 +62,7 @@ On branch SecretTesting
 nothing to commit, working directory clean
 
 
-#5.   git config  :-
+# 5.   git config  :-
 
 It is used for configure the user information like username, useremail and password  etc.
 
