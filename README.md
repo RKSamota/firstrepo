@@ -3,7 +3,7 @@
 Hello everone in this repository I am going to tell about basic commends of git with example.
 
 
-#1.   git init  : -
+#  1.   git init  : -
 This command turns a directory into an empty Git repository. This is the first step in creating a repository. 
 
 Example :-   
