@@ -11,7 +11,7 @@ make directory a git repository
 $ git init
 
 
-#2.  git add  :-
+# s2.  git add  :-
 Adds files in the to the staging area for Git. Before a file is available to commit to a repository, the file needs to be added to the Git index (staging area).
 
 Example :- 
