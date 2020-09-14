@@ -9,7 +9,6 @@ This command turns a directory into an empty Git repository. This is the first s
 Example :-   
 make directory a git repository
 $ git init
-        $ git init
 
 
 # 2.  git add  :-
